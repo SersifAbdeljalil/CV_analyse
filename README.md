@@ -503,7 +503,7 @@ CV_analyse/
 │   └── .env
 ├── frontend/             # React App
 │   ├── src/
-│   │   └── components/
+│   │   └── page/
 │   └── .env
 └── cv_analyzer.sql       # Base de données
 ```
