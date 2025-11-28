@@ -104,22 +104,6 @@ cd CV_analyse
 4. Sélectionnez le fichier `cv_analyzer.sql` (fourni dans le projet)
 5. Cliquez sur "Exécuter" en bas de la page
 6. Attendez la confirmation "Importation réussie"
-
-**Option 2 : Avec MySQL en ligne de commande**
-```bash
-# Se connecter à MySQL
-mysql -u root -p
-
-# Créer la base de données
-CREATE DATABASE cv_analyzer CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-
-# Quitter MySQL
-EXIT;
-
-# Importer le fichier SQL
-mysql -u root -p cv_analyzer < cv_analyzer.sql
-```
-
 ---
 
 ## ⚙️ Configuration du Backend
