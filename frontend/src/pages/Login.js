@@ -14,7 +14,7 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
-  const API_URL = process.env.REACT_APP_API_URL || 'http://192.168.1.117:8000';
+  const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
 
   const handleChange = (e) => {
     setFormData({
